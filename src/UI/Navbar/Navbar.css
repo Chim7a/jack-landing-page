@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10dvh;
+  padding: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links li {
+  list-style: none;
+  font-weight: lighter;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+}
+
+.lang p {
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+
+.lang span {
+  padding: 0.2rem;
+  color: #ec9a7f;
+}
