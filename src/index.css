@@ -4,6 +4,7 @@
 /* specialize text 2E2E2E */
 /* Hero text font 050201 */
 /* background white F7F7F7 */
+/* orange D48661 */
 
 * {
   font-family: "Poppins", sans-serif;
@@ -13,5 +14,5 @@
 }
 
 body {
-  background-color: #eaeaea;
+  background-color: #d8d7d7;
 }

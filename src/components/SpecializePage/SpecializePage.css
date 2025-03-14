@@ -1,0 +1,61 @@
+.specialize-sec {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  background-image: url("/public/wave-haikei.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.specialize-img {
+  position: relative;
+  width: 100dvh;
+  display: flex;
+  justify-content: center;
+}
+
+.specialize-sec img {
+  height: 500px;
+  width: 300px;
+  object-fit: cover;
+  border: 3px solid #f7f7f7;
+  border-radius: 8px;
+}
+
+.specialize-sec h1 {
+  position: absolute;
+  left: 7.2rem;
+  top: -5.2rem;
+  font-size: 3.2rem;
+  font-weight: 560;
+  max-width: 550px;
+  text-align: center;
+  line-height: 3.5rem;
+  color: #2e2e2e;
+  letter-spacing: -2px;
+}
+
+.specialize-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.5rem;
+  gap: 1rem;
+}
+
+.specialize-txt p {
+  font-weight: 200;
+  font-size: 1rem;
+  max-width: 250px;
+  text-align: center;
+}
+
+.specialize-txt button {
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  border: 1px solid black;
+  font-size: 1rem;
+}

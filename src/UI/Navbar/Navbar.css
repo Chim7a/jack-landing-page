@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 10dvh;
+  height: 7dvh;
   padding: 1rem;
 }
 
@@ -14,7 +14,8 @@
 
 .nav-links li {
   list-style: none;
-  font-weight: lighter;
+  font-weight: 300;
+  color: black;
 }
 
 .logo h1 {
@@ -28,11 +29,13 @@
 }
 
 .lang p {
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 0.9rem;
 }
 
 .lang span {
   padding: 0.2rem;
   color: #ec9a7f;
+  display: flex;
+  justify-content: center;
 }
